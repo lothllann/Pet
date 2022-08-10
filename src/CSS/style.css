@@ -1,5 +1,5 @@
-.container{
-    padding: 0px 60px 0px 60px;
+.container {
+  padding: 0px 60px 0px 60px;
 }
 .head {
   display: flex;
@@ -12,12 +12,12 @@
 }
 
 .menus ul {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .menus li {
-  color: #5C1C0D;
+  color: #5c1c0d;
   font-size: 18px;
   font-weight: bold;
   font-style: italic;
@@ -25,6 +25,10 @@
   padding: 5px;
 }
 
+.main {
+  display: flex;
+  margin-top: 60px;
+}
 
 .divulgacao h2 {
   color: #f2a766;
@@ -36,7 +40,6 @@
 }
 
 .divulgacao p {
-
   font-size: 14px;
   text-align: justify;
   color: white;
@@ -44,17 +47,62 @@
 }
 
 .divulgacao {
-  margin-top: 60px;
   padding: 30px;
   padding-left: 60px;
-  background-color: #D9663D;
+  background-color: #d9663d;
   min-width: 275px;
   width: 25%;
   max-width: 325px;
   min-height: 500px;
   border-radius: 0px 20px 20px 0px;
-
+  display: inline-block;
 }
 
+.acoes {
+  display: flex;
+  width: 100%;
+  padding: 60px;
+  justify-content: center;
+  gap: 90px;
+}
 
+.card {
+  width: 285px;
+  height: 500px;
+  background-color: #fff9f4;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
 
+.main button {
+  width: 160px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #D9663D;
+  color: #fff9f4;
+  font-weight: bold;  
+}
+
+.main h2 {
+  color: #5c1c0d;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  width: 145px;
+  letter-spacing: 0.5px;
+}
+
+.main .apadrinhar h2{
+  width: 180px;
+}
+
+.rodape {
+  height: 50px;
+  width: 100%;
+  background-color: #f2a766;
+  position: relative;
+  bottom: 0px;
+}
