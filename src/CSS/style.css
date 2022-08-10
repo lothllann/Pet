@@ -1,0 +1,38 @@
+.container{
+    padding: 0px 60px 0px 60px;
+}
+.head123 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  max-height: 90px;
+  width: 100%;
+  background-color: #f2a766;
+}
+
+.menus ul {
+    display: flex;
+    gap: 30px;
+}
+
+
+.laranja h2 {
+  color: #f2a766;
+}
+
+.laranja p {
+  width: 138px;
+  text-align: justify;
+  color: white;
+}
+
+.laranja {
+  margin-top: 60px;
+  padding: 15px;
+  background-color: #D9663D;
+  width: 200px;
+  border-radius: 0px 20px 20px 0px;
+
+}
+
