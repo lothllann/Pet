@@ -34,6 +34,7 @@
   color: #f2a766;
   font-size: 16px;
   font-weight: bold;
+  text-align: center;
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
@@ -86,7 +87,7 @@
   font-weight: bold;  
 }
 
-.main h2 {
+.card h2 {
   color: #5c1c0d;
   font-size: 14px;
   font-weight: bold;
