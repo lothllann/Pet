@@ -13,7 +13,7 @@
 
 .menus ul {
     display: flex;
-    gap: 30px;
+    gap: 20px;
 }
 
 .menus li {
@@ -21,6 +21,8 @@
   font-size: 18px;
   font-weight: bold;
   font-style: italic;
+  cursor: pointer;
+  padding: 5px;
 }
 
 
